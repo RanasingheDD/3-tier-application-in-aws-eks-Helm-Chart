@@ -2,7 +2,7 @@ frontend:
   replicaCount: 3
   image:
     repository: dishr/frontend
-    tag: v1
+    tag: 559a89dd2e938357fdab95c998e5142d79ddf47c
   service:
     port: 80
 
@@ -10,7 +10,7 @@ backend:
   replicaCount: 3
   image:
     repository: dishr/backend
-    tag: v1
+    tag: 559a89dd2e938357fdab95c998e5142d79ddf47c
   service:
     port: 4000
 
